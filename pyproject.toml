@@ -1,0 +1,14 @@
+[project]
+name = "cli-agent_smart-student"
+version = "0.1.0"
+description = "CLI-based AI student assistant with PDF summarizer and study reminders"
+authors = [{ name = "Maaz", email = "mazhusyan120@gmail.com" }]
+requires-python = ">=3.9"
+
+dependencies = [
+    "PyMuPDF",
+    "transformers",
+    "schedule"
+]
+
+[tool.uv.pip]
